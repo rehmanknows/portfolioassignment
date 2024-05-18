@@ -1,0 +1,352 @@
+/* Basic styling */
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3d0eb;
+    color: #333;
+}
+
+header {
+    background-color: transparent; /* No background color on the entire header */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+nav {
+    background-color: rgba(167, 136, 136, 0.8); /* Semi-transparent background color */
+    padding: 10px 20px;
+    border-radius: 10px; /* Rounded corners for a nicer look */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Highlight on hover */
+    border-radius: 5px;
+}
+
+/* Rehman Ali's Theme */
+body.rehman-theme {
+    background: url('images/rehman_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #006064; /* Dark cyan text */
+}
+
+body.rehman-theme header {
+    background-color: transparent; /* No background color on the entire header */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+body.rehman-theme footer {
+    background-color: rgba(115, 143, 130, 0.8); /* Dark green background with transparency */
+}
+
+/* Member 2's Theme */
+body.rehan-theme {
+    background: url('images/member2_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #a5a278; /* Dark orange text */
+}
+
+body.rehan-theme header {
+    background-color: transparent; /* No background color on the entire header */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+body.rehan-theme footer {
+    background-color: rgba(115, 143, 130, 0.8); /* Dark orange background with transparency */
+}
+
+/* Member 3's Theme */
+body.ania-theme {
+    background: url('images/member3_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #1b5e20; /* Dark green text */
+}
+
+body.ania-theme header {
+    background-color: transparent; /* No background color on the entire header */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+body.ania-theme footer {
+    background-color: rgba(115, 143, 130, 0.8); /* Dark green background with transparency */
+}
+    
+/* Member 4's Theme */
+body.tasleem-theme {
+    background: url('images/member4_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #736781; /* Dark purple text */
+}
+
+body.tasleem-theme header {
+    background-color: transparent; /* No background color on the entire header */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+body.tasleem-theme footer {
+    background-color: rgba(115, 143, 130, 0.8); /* Dark purple background with transparency */
+}
+
+.member-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh; /* Adjust as necessary */
+    text-align: center;
+}
+
+.member-content {
+    max-width: 600px; /* Adjust as necessary */
+    padding: 20px;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('@@.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* About Us Section */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-grid .grid-item {
+    flex: 1 0 auto;
+    max-width: 100%;
+}
+
+.team-member {
+    background-color: white;
+    background-size: cover;
+    background-position:bottom;
+    
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.projects h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 60px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e1e4e8;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+footer .social-links {
+    margin-bottom: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer .social-links a:hover {
+    color: #f8f9fa;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .team-grid, .project-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Unique themes for each member */
+body.rehman-theme {
+    background-color: #e3f2fd; /* Light blue background for Rehman */
+    color: #0d47a1; /* Dark blue text */
+}
+
+body.rehan-theme {
+    background-color: #fff3e0; /* Light orange background for Member 2 */
+    color: #e65100; /* Dark orange text */
+}
+
+body.ania-theme {
+    background-color: #f3e5f5; /* Light purple background for Member 3 */
+    color: #6a1b9a; /* Dark purple text */
+}
+
+body.tasleem-theme {
+    background-color: #e0f7fa; /* Light teal background for Member 4 */
+    color: #006064; /* Dark teal text */
+}
